@@ -1,10 +1,51 @@
 {
-  "name": "library-starter",
-  "version": "1.0.0",
-  "description": "Library Starter Template",
+  "name": "@saapless/relay",
+  "version": "0.1.0",
+  "description": "Relay.js Utilities",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./environment": {
+      "default": "./dist/environment/index.js",
+      "types": "./dist/environment/index.d.ts"
+    },
+    "./environment/*": {
+      "default": "./dist/environment/*.js",
+      "types": "./dist/environment/*.d.ts"
+    },
+    "./react": {
+      "default": "./dist/react/index.js",
+      "types": "./dist/react/index.d.ts"
+    },
+    "./react/*": {
+      "default": "./dist/react/*.js",
+      "types": "./dist/react/*.d.ts"
+    },
+    "./server": {
+      "default": "./dist/server/index.js",
+      "types": "./dist/server/index.d.ts"
+    },
+    "./server/*": {
+      "default": "./dist/server/*.js",
+      "types": "./dist/server/*.d.ts"
+    },
+    "./utils": {
+      "default": "./dist/utils/index.js",
+      "types": "./dist/utils/index.d.ts"
+    },
+    "./utils/*": {
+      "default": "./dist/utils/*.js",
+      "types": "./dist/utils/*.d.ts"
+    }
+  },
   "scripts": {
     "test": "NODE_OPTIONS=\"--experimental-vm-modules\" jest",
     "test:watch": "NODE_OPTIONS=\"--experimental-vm-modules\" jest --watch",
