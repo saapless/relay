@@ -56,14 +56,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saapless/library-starter.git"
+    "url": "git+https://github.com/saapless/relay.git"
   },
   "author": "Saapless <dev@saapless.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saapless/library-starter/issues"
+    "url": "https://github.com/saapless/relay/issues"
   },
-  "homepage": "https://github.com/saapless/library-starter#readme",
+  "homepage": "https://github.com/saapless/relay#readme",
   "devDependencies": {
     "@commitlint/cli": "^19.7.1",
     "@commitlint/config-conventional": "^19.7.1",
