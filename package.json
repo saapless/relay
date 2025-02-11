@@ -77,8 +77,6 @@
     "@types/eslint-plugin-security": "^3.0.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.13.1",
-    "@types/react-relay": "^18.2.0",
-    "@types/relay-runtime": "^18.2.5",
     "eslint": "^9.20.0",
     "eslint-config-prettier": "^10.0.1",
     "eslint-import-resolver-typescript": "^3.7.0",
@@ -94,8 +92,22 @@
     "typescript-eslint": "^8.24.0"
   },
   "peerDependencies": {
-    "react": "^18",
+    "@types/react": "*",
+    "@types/react-relay": "*",
+    "@types/relay-runtime": "*",
+    "react": "^18 || ^19",
     "react-relay": "^18",
     "relay-runtime": "^18"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    },
+    "@types/react-relay": {
+      "optional": true
+    },
+    "@types/relay-runtime": {
+      "optional": true
+    }
   }
 }
