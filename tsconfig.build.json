@@ -6,8 +6,6 @@
     "noEmit": false,
     "declaration": true,
     "sourceMap": true,
-    "moduleResolution": "nodenext",
-    "module": "NodeNext",
   },
   "include": [
     "src",
