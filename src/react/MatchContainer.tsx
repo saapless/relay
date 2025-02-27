@@ -1,8 +1,7 @@
+import { type MatchContainerProps as RelayMatchContainerProps } from "react-relay";
 import { useCallback, type ComponentType, type FC } from "react";
-import {
-  MatchContainer as RelayMatchContainer,
-  type MatchContainerProps as RelayMatchContainerProps,
-} from "react-relay/relay-hooks/MatchContainer";
+// @ts-expect-error - types not implemented yet
+import RelayMatchContainer from "react-relay/lib/relay-hooks/MatchContainer";
 import { ModuleRegistry } from "../environment/moduleRegistry";
 
 type MatchContainerProps = Omit<RelayMatchContainerProps, "loader">;
