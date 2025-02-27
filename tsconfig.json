@@ -12,7 +12,7 @@
     "noUncheckedIndexedAccess": true,
     "moduleResolution": "bundler",
     "module": "ES2022",
-    "jsx": "preserve",
+    "jsx": "react",
     "lib": [
       "es2022",
       "dom"
